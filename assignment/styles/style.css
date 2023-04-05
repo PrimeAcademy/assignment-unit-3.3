@@ -1,1 +1,8 @@
 /* give your assignment a fun background color */
+body {
+  background: linear-gradient(
+    to right,
+    rgba(211, 113, 47, 0.676),
+    rgba(47, 80, 211, 0.534)
+  );
+}
