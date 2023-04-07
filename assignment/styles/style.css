@@ -1,1 +1,35 @@
 /* give your assignment a fun background color */
+body {
+    background-color: thistle;
+    margin: 2rem 2rem;
+}
+
+/* practicing some CSS stuff learned from Michael Duren */
+* {
+    padding: 0;
+    margin: 0;
+    /* the following tells CSS to include padding and border when determining the
+     * box size. otherwise, it will only include the content box itself, and any
+     * padding and border will be added on top of that. */
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.quarter-box {
+    display: inline-block;
+    width: 25%;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.container {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 2px dashed whitesmoke;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    padding: 0.5rem 0;
+}
