@@ -78,6 +78,6 @@ let i = 0;
 while(count < 572){
     count += 7;
     i += 1;
-    console.log('The number of boxes packed were',i-1, 'with a remainder of', 572 % 7, 'parts.')
 }
+console.log('The number of boxes packed were',i-1, 'with a remainder of', 572 % 7, 'parts.')
 
