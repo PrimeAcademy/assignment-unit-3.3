@@ -41,6 +41,24 @@ console.log('supply changes:', supplyChanges);
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
 
+let index =0;
+for(let index=0;index<=supplyChanges.length; index++ )
+console.log(index);
+
+
+
+
+// console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+
+// let number=10;
+
+// for (let i=1; i<=number; i++) {   
+// if (i%2==0)   
+// {  
+// console.log(i);  
+// }  
+// }  
+
 
 
 // STRETCH GOALS
