@@ -37,9 +37,9 @@ console.log("Added " + supplyChanges[5] + " to supplyChanges.");
 console.log("6. Showing supplyChanges...");
 for (let supply of supplyChanges)
   if (supply >= 1) {
-    console.log("Added " + supply + ' parts');
+    console.log("Added " + supply + " parts");
   } else if (supply <= -1) {
-    console.log("Removed " + supply + ' parts');
+    console.log("Removed " + supply + " parts");
   } else {
     console.log("No Change");
   } // this took me way longer than I had hoped. I think I got it
@@ -48,20 +48,21 @@ for (let supply of supplyChanges)
 console.log("---  Stretch Goals  ---");
 // 7. Rewrite the `for` loop from #6 as a `for of` loop.
 console.log('7. Showing supplyChanges with "for of" loop');
-for (let supply of supplyChanges)
+for (let supply of supplyChanges) {
   if (supply >= 1) {
-    console.log("Added " + supply + ' parts');
+    console.log("Added " + supply + " parts");
   } else if (supply <= -1) {
-    console.log("Removed " + supply + ' parts');
+    console.log("Removed " + supply + " parts");
   } else {
     console.log("No Change");
-  } // I used a for of loop in 6 so I'm reposting
+  }
+} // I used a for of loop in 6 so I'm reposting
 
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log("8. Total supplies available is:");
-let sum = supplyChanges.reduce(function(a, b){
-    return a + b;
+let sum = supplyChanges.reduce(function (a, b) {
+  return a + b;
 });
 console.log(sum); // took me a bit of searching but was able to find the answer. ASK TEACHER
 
