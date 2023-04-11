@@ -73,3 +73,12 @@ console.log(sum); // took me a bit of searching but was able to find the answer.
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+// let boxes = 0;
+// let totalParts = 572;
+
+// while (boxes < totalParts / 7) {
+//   console.log("This is a box!");
+//   boxes == 81
+// }
+
+// Utter confusion, submitting work but will reach out to teacher
