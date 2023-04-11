@@ -12,7 +12,7 @@ console.log('parts needed:', partsNeeded);
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
 
-let supplyChanges = [3, 5, -6, 0, 7, 11]
+let supplyChanges = [3, 5, -6, 0, 7, 11];
 console.log('supply changes:', supplyChanges);
 
 // 3. Console log the value of the second item in the 'supplyChanges' array
